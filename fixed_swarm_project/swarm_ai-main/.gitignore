@@ -1,0 +1,28 @@
+# Environment — never commit API keys
+.env
+*.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+Thumbs.db
