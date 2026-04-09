@@ -1,0 +1,29 @@
+# SWARM ENGINE — Dependencies
+# Install with: pip install -r requirements.txt
+
+# LangChain core
+langchain>=0.3.0
+langchain-core>=0.3.0
+
+# Groq provider for LangChain
+langchain-groq>=0.2.0
+
+# LangGraph — state graph orchestration
+langgraph>=0.2.0
+
+# Pydantic — config validation
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+
+# Environment variable loading
+python-dotenv>=1.0.0
+
+# Async HTTP
+httpx>=0.27.0
+
+# Tavily — web search for agents
+tavily-python>=0.3.0
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
